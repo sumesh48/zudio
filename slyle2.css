@@ -1,0 +1,54 @@
+*{
+    margin: auto;
+    background-color: black;
+}
+#Container{
+    width: 100%;
+    position: relative;
+    background-color: black;
+}
+#navbar{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.logo{
+    color: white;
+    margin-left: 70px;
+    margin-top: 10px;
+    font-size: 40px;
+    font-family: 'Orbitron', sans-serif;
+}
+.listitem{
+    margin-right: 50px;
+}
+
+#list{
+    display: inline-block;
+    margin: 10px 40px;
+    font-size: 20px;
+}
+#link{
+    color: white;
+    text-decoration: none;
+    font-weight: bolder;
+}
+.container-text-center{
+    border: 3px solid grey;
+    
+}
+.zudo{
+    position: absolute;
+    bottom: 90px; 
+}
+.rel{
+    margin-bottom: 5px;
+}
+.last{
+    text-decoration: none;
+    color: yellow;
+}
+.footer{
+    color: white;
+    text-align: center;
+}
